@@ -1,7 +1,7 @@
-#include <stdio.h>
-#include <stdlib.h>
+//#include <stdio.h>
+//#include <stdlib.h>
 #include <math.h>
-#include <string.h>
+//#include <string.h>
 
 
 int func_val(int X, int B) {

@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <math.h>
+//#include <stdlib.h>
+//#include <math.h>
 #include <string.h>
 #include "funcaoondas.c"
 
@@ -17,7 +17,7 @@ void separa_e_converte(char MENSAGEM_CIFRADA[], int B) {
         PAR[0] = MENSAGEM_CIFRADA[I];
         PAR[1] = MENSAGEM_CIFRADA[I + 1];
         PAR[2] = '\0';
-        //pos ++;
+        //POS++;
 
         int CONVERTEH2D = strtol(PAR, &endptr, 16); //CONVERS?O DE HEXADECIMAL PARA DECIMAL
         if (strcmp(PAR, ENCERRAR) == 0) {
